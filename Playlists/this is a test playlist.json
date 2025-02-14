@@ -1,0 +1,6 @@
+{"Name": "<playlist name>",
+"Songs":[
+{"Title":"John Cena","Artist":"artist","FilePath":"filePath", "Length":"00:05:02"},
+{"Title":"Song 2","Artist":"artist","FilePath":"filePath", "Length":"00:05:42"},
+{"Title":"XDX","Artist":"artist","FilePath":"filePath", "Length":"00:02:02"}
+]}

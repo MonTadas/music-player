@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackendThings", "BackendThings\BackendThings.csproj", "{617CE879-8B7F-4BAC-8FF9-165865E1FD38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerUI", "PlayerUI\PlayerUI.csproj", "{02C73277-208E-4DFE-AE97-65CABCEB7F9E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{617CE879-8B7F-4BAC-8FF9-165865E1FD38} = {617CE879-8B7F-4BAC-8FF9-165865E1FD38}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{617CE879-8B7F-4BAC-8FF9-165865E1FD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617CE879-8B7F-4BAC-8FF9-165865E1FD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617CE879-8B7F-4BAC-8FF9-165865E1FD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617CE879-8B7F-4BAC-8FF9-165865E1FD38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C73277-208E-4DFE-AE97-65CABCEB7F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C73277-208E-4DFE-AE97-65CABCEB7F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C73277-208E-4DFE-AE97-65CABCEB7F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C73277-208E-4DFE-AE97-65CABCEB7F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3706E59B-19EB-4395-81FA-0D1D4BCA979E}
+	EndGlobalSection
+EndGlobal
